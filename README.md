@@ -84,7 +84,7 @@ co(function *() {
     ///////////////////////////////////////////////////////
 
     var env = process.env.NODE_ENV;
-    var envConfig = new yield Config(myConfigDirectory, env);
+    var config = new yield Config(myConfigDirectory, env);
 
     // if env === 'development', your config instance will also use the myconfig.development.json file
 
