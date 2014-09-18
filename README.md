@@ -11,6 +11,7 @@ $ npm install yield-config
 ### Exemple
 
 We start from some json config files :
+
 {config directory}/myconfig.json :
 ```json
 {
