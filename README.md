@@ -11,24 +11,25 @@ $ npm install yield-config
 ### Exemple
 
 We start from some json config files :
+{config directory}/myconfig.json :
 ```json
-// {config directory}/myconfig.json
-
 {
     "one": "i am the first",
     "two": "i am the second"
 }
 ```
+
+{config directory}/myconfig.development.json :
 ```json
-// {config directory}/myconfig.development.json
 
 {
     "two": "i am the second, and i am for the development environment only",
     "three": "i am the third, and i only exist in the development environment"
 }
 ```
+
+{config directory}/anotherconfig.json :
 ```json
-// {config directory}/anotherconfig.json
 
 {
     "foo": "bar"
