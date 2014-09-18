@@ -21,7 +21,6 @@ We start from some json config files :
 
 {config directory}/myconfig.development.json :
 ```json
-
 {
     "two": "i am the second, and i am for the development environment only",
     "three": "i am the third, and i only exist in the development environment"
@@ -30,7 +29,6 @@ We start from some json config files :
 
 {config directory}/anotherconfig.json :
 ```json
-
 {
     "foo": "bar"
 }
